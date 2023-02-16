@@ -1,0 +1,627 @@
+/* =============================================
+                Basic Styles
+============================================= */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2,
+h3 {
+    color: #131313;
+    font-weight: 700;
+}
+
+.header {
+    width: 100%;
+    background-color: #FF900E1A;
+}
+
+/* =============================================
+            Navigation Menu Styles
+============================================= */
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.6vw 12vw;
+    align-items: center;
+}
+
+nav .nav-title {
+    font-size: 2.8rem;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #424242;
+}
+
+/* =============================================
+            Banner Section Styles
+============================================= */
+
+.banner {
+    margin: 2.34vw 10vw;
+    text-align: center;
+}
+
+.banner-info {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.banner-info .banner-title {
+    font-size: 4rem;
+    padding-top: 1.6vw;
+    padding-bottom: 1vw;
+}
+
+.banner-info .banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1.6vw;
+    /* padding: 1.6vw 0; */
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    border: 0;
+    padding: 1.1vw 1.3vw;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 2.5vw;
+}
+
+.banner .banner-img {
+    padding-bottom: 2.3vw;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* =============================================
+            Feature List Section Styles
+============================================= */
+
+.feature-list {
+    width: 100%;
+}
+
+.feature-list-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3.7vw;
+    margin: 4.4vw 10vw;
+}
+
+.feature-list-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-list-img img {
+    width: 300px;
+    height: 300px;
+}
+
+.feature-list-title {
+    font-weight: 600;
+    font-size: 2.8rem;
+    padding-bottom: 1.25vw;
+}
+
+.feature-list-title .s1 {
+    color: #727272;
+    font-weight: 500;
+}
+
+.feature-list-title .s2 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    padding-bottom: 1.6vw;
+}
+
+/* =============================================
+            Feature Section Styles
+============================================= */
+
+.features {
+    width: 100%;
+}
+
+.features-container {
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+    align-items: center;
+    padding: 6.7vw 12.5vw;
+}
+
+.feature-info {
+    width: 50%;
+}
+
+.feature-info .features-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 21px;
+    border-left: 5px solid #FF900E;
+}
+
+.features-description {
+    color: #727272;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.feature .feature-container {
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.feature-description {
+    color: #727272;
+}
+
+.feature-section-img {
+    width: 50%;
+}
+
+.feature-section-img img {
+    width: 500px;
+    height: 780px;
+    border-radius: 8px;
+    margin-left: 92px;
+}
+
+.btn-feature {
+    padding: 35px 32px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-top: -70px;
+}
+
+.btn-feature p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* =============================================
+            Fact Section Styles
+============================================= */
+.fact {
+    padding: 3.2vw 12.5vw;
+}
+
+.fact-details {
+    margin-bottom: 5.2vw;
+}
+
+.fact-details .section-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.section-description {
+    color: #727272;
+    padding-right: 45vw;
+}
+
+.fact-container {
+    /* padding: 2.6vw; */
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+
+.fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 30px;
+    text-align: center;
+    width: 100%;
+    transition: width 2s, transform 2s;
+}
+
+.fact-card:hover {
+    transform: scale(1.2);
+}
+
+.fact-card img {
+    padding-bottom: 10px;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* =============================================
+            Sponsor Section Styles
+============================================= */
+.sponsor-info {
+    text-align: center;
+    padding: 2.5vw 32vw;
+}
+
+.sponsor-info .sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.sponsor-info .sponsor-description {
+    color: #727272;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw 12.5vw;
+}
+
+
+/* =============================================
+            Contact Section Styles
+============================================= */
+.contact-container {
+    padding: 100px 230px;
+    display: flex;
+    gap: 10px;
+}
+
+.contact-details {
+    width: 65%;
+}
+
+.subscribe-detail {
+    width: 45%;
+}
+
+.contact-title {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.contact-description,
+.contact-subtitle {
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.contact-description {
+    padding-right: 15px;
+}
+
+.contact-subtitle {
+    padding-bottom: 16px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+input[type="email"] {
+    padding: 20px;
+    width: 100%;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f3f3f3f2;
+}
+
+input[type="submit"] {
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FF900E;
+}
+
+/* =============================================
+            Footer Section Styles
+============================================= */
+
+.footer-container {
+    background-color: #FF900E1A;
+    margin: 1vw 12.5vw;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.footer-info {
+    padding: 2vw 11vw;
+    font-size: 20px;
+    color: #424242;
+}
+
+/* =============================================
+            Media Query Mobile Styles
+============================================= */
+@media screen and (max-width: 576px) {
+    .banner-info {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .banner-info .banner-title {
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .btn-primary {
+        padding: 2.1vw 2.3vw;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .header nav {
+        flex-direction: column;
+        gap: 24px;
+        padding: 2.6vw 5vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .feature-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7.7vw;
+        margin: 8.4vw 5vw;
+    }
+
+    .feature-list-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        width: 100%;
+    }
+
+    .feature-list-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 6.7vw 6.5vw;
+        justify-content: center;
+    }
+
+    .feature-info {
+        width: 100%;
+    }
+
+    .feature-section-img {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-section-img img {
+        margin-left: 0;
+        width: 350px;
+        height: 485px;
+    }
+
+    .feature-section-img .btn-primary {
+        padding: 4.1vw 3.3vw;
+        font-size: 2rem;
+    }
+
+    .fact {
+        padding: 3.2vw 3.5vw;
+    }
+
+    .section-description {
+        padding-right: 0;
+    }
+
+    .fact-container {
+        flex-direction: column;
+        gap: 7px;
+
+    }
+
+    .fact-card {
+        padding: 45px 30px;
+        text-align: center;
+        width: auto;
+    }
+
+    .fact-card:hover {
+        transform: none;
+    }
+
+    .sponsor-info {
+        padding: 2.5vw 12vw;
+        margin-bottom: 40px;
+    }
+
+    .logos {
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .sponsor-logo img {
+        width: 45%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        padding: 100px 25px;
+    }
+
+    .contact-details {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .contact-description {
+        padding-right: 0;
+    }
+
+    .form-title {
+        padding-bottom: 10px;
+    }
+
+    input[type="email"] {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .footer-container {
+        margin: 5vw 6.5vw;
+    }
+
+    .footer-info {
+        padding: 2vw 11vw;
+    }
+}
+
+/* =============================================
+            Media Query Tablet Styles
+============================================= */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .feature {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .feature-info {
+        width: 100%;
+    }
+
+    .features-container {
+        padding: 6.7vw 5.5vw;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-section-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-section-img img {
+        width: 100%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+
+    .feature-list-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .section-description {
+        padding-right: 30vw;
+    }
+
+
+
+    .fact-container {
+        /* padding: 2.6vw; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+        grid-column-gap: 75px;
+        justify-content: center;
+    }
+
+    .fact-card:hover {
+        transform: none;
+    }
+
+    .sponsor-logo {
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2vw 12.5vw;
+        mix-blend-mode: luminosity;
+        align-content: center;
+    }
+
+    .contact-container {
+        padding: 50px 67px;
+        gap: 20px;
+    }
+
+    .contact-details {
+        padding-bottom: 50px;
+    }
+
+    .contact-description {
+        padding-right: 0;
+    }
+}
